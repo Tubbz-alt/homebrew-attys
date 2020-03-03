@@ -7,6 +7,7 @@ class AttysEcg < Formula
   depends_on "qt5"
   depends_on "attys-comm"
   depends_on "iir"
+  depends_on "fir"
   depends_on "qwt"
 
   def install
