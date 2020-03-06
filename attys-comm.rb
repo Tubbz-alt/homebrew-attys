@@ -1,8 +1,8 @@
 class AttysComm < Formula
   desc "Attys C++ API"
   homepage "https://www.attys.tech/"
-  url "https://github.com/glasgowneuro/attys-comm/archive/2.0.9.tar.gz"
-  sha256 "9cfdb6d6395fd2e10e2806c8171e4984747f75b8af715a53e3b8960262051da6"
+  url "https://github.com/glasgowneuro/attys-comm/archive/2.0.10.tar.gz"
+  sha256 "cc4c0c26be55a78a8c7ec9c42d94f4267f56c4e94e8ba4c9b99d7a59326f0760"
 
   depends_on "cmake" => :build
 
