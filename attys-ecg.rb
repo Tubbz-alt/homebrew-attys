@@ -1,8 +1,8 @@
 class AttysEcg < Formula
   desc "ECG app for the Attys"
   homepage "http://www.attys.tech"
-  url "https://github.com/glasgowneuro/attys-ecg/archive/1.3.0.tar.gz"
-  sha256 "ec7b0e576c258ab11104421d07397146cd4e833a30ee193d03d573a2acf09869"
+  url "https://github.com/glasgowneuro/attys-ecg/archive/1.3.2.tar.gz"
+  sha256 "699cde7fa89782d7cfcbd211b0afa7bc616da10257defe52c3e861b0d45d2590"
 
   depends_on "qt5"
   depends_on "attys-comm"
