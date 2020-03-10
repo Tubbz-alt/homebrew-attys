@@ -1,13 +1,13 @@
 class AttysComm < Formula
   desc "Attys C++ API"
   homepage "https://www.attys.tech/"
-  url "https://github.com/glasgowneuro/attys-comm/archive/2.0.11.tar.gz"
-  sha256 "9d375be290317b9ce751901b62120d891f14285b391f0c7686abe8f214e6413f"
+  url "https://github.com/glasgowneuro/attys-comm/archive/2.0.12.tar.gz"
+  sha256 "9a9bedb3d0ad956f41272cc38dd61c3eda7e85a7b461cf6d741740b1eec9e74a"
 
   depends_on "cmake" => :build
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release"
     system "make"
     system "make install"
   end
