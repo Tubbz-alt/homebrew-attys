@@ -1,8 +1,8 @@
 class AttysEp < Formula
   desc "Visually evoked potentials / PSTH program for the Attys"
   homepage "http://www.attys.tech"
-  url "https://github.com/glasgowneuro/attys-ep/archive/1.1.0.tar.gz"
-  sha256 "ebf80d9559a6c34fef1f070aaaaf641bc082b5d85b43d64f7307a4225e2d306c"
+  url "https://github.com/glasgowneuro/attys-ep/archive/1.1.1.tar.gz"
+  sha256 "2a010e73c51039581ecf3f95990f8b19ee972b673a639702a51d0a4b10fcaad2"
 
   depends_on "qt5"
   depends_on "attys-comm"
