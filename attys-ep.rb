@@ -3,7 +3,6 @@ class AttysEp < Formula
   homepage "http://www.attys.tech"
   url "https://github.com/glasgowneuro/attys-ep/archive/1.1.2.tar.gz"
 
-
   depends_on "qt5"
   depends_on "attys-comm"
   depends_on "iir"
