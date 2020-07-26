@@ -1,8 +1,7 @@
 class AttysScope < Formula
   desc "Oscilloscope and data logger for the Attys DAQ (Linux/Windows/Mac)"
   homepage "http://www.attys.tech"
-  url "https://github.com/glasgowneuro/attys-scope/archive/2.1.0.tar.gz"
-  sha256 "2c96b9bc44507caf3b4c9661e2e68664fa8647db221ee3089dfebcdc1ca2b8ac"
+  url "https://github.com/glasgowneuro/attys-scope/archive/2.1.1.tar.gz"
 
   depends_on "qt5"
   depends_on "attys-comm"
